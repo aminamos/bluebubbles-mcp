@@ -2,7 +2,7 @@
 
 Model Context Protocol (MCP) server for interacting with a self-hosted
 [BlueBubbles](https://bluebubbles.app/) iMessage bridge server. Exposes tools
-to read conversations, fetch messages, send texts, and add reactions — all from
+to read conversations, fetch messages, send texts, and add reactions — from
 any AI agent or tool that speaks MCP.
 
 ## Requirements
