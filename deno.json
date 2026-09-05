@@ -1,0 +1,22 @@
+{
+  "tasks": {
+    "start": "deno run --allow-env=BLUEBUBBLES_URL,BLUEBUBBLES_PASSWORD,BLUEBUBBLES_TIMEOUT_MS --allow-net src/main.ts",
+    "check": "deno check src/main.ts",
+    "test": "deno test --allow-net --allow-env tests"
+  },
+  "imports": {
+    "@modelcontextprotocol/sdk/server/mcp.js": "npm:@modelcontextprotocol/sdk@1.29.0/server/mcp.js",
+    "@modelcontextprotocol/sdk/server/stdio.js": "npm:@modelcontextprotocol/sdk@1.29.0/server/stdio.js",
+    "zod": "npm:zod@3.25.76"
+  },
+  "fmt": {
+    "lineWidth": 100,
+    "semiColons": true,
+    "singleQuote": false
+  },
+  "lint": {
+    "rules": {
+      "tags": ["recommended"]
+    }
+  }
+}
